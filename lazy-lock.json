@@ -1,6 +1,6 @@
 {
   "battery.nvim": { "branch": "main", "commit": "3155cd8ac881e959b5d494b17c613e9df8790576" },
-  "blink.cmp": { "branch": "main", "commit": "f50d952de478b554d89bcca058691a69cb5681dd" },
+  "blink.cmp": { "branch": "main", "commit": "1e4cb39b9200950dca1cbc4d630c60c16eb8e7e4" },
   "blink.lib": { "branch": "main", "commit": "fd9a48ebbe6ec30d5dfcc5b42c243941ccdca1aa" },
   "blink.pairs": { "branch": "main", "commit": "c382bc4ba0229211c8ae19491bb7aa930c051a42" },
   "friendly-snippets": { "branch": "main", "commit": "b4d01b0fdf3c9a549961c2f9ffe8dc09be166219" },
