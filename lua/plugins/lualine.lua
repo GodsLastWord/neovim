@@ -4,7 +4,7 @@ return {
         opts = {
             update_rate_seconds = 60,
             show_status_when_no_battery = false,
-            show_plugged_icon = false,
+            show_plugged_icon = true,
             show_unplugged_icon = true,
             show_percent = true,
             vertical_icons = false,
@@ -24,6 +24,7 @@ return {
                     function()
                         return require("battery").get_status_line()
                     end,
+                    "location"
                 },
             },
         },
