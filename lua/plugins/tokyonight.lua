@@ -9,11 +9,11 @@ return {
                 sidebars = "transparent",
                 floats = "transparent",
             },
+            on_colors = function(colors)
+                colors.bg_statusline = colors.none
+            end,
         })
 
-        vim.api.nvim_set_hl(0, "NeoTreeFileStatsHeader", { link = "NeoTreeRootName" })
-        vim.api.nvim_set_hl(0, "NeoTreeFileStats", { link = "NeoTreeFile" })
-
-        vim.cmd.colorscheme("tokyonight-moon")
+        vim.cmd [[colorscheme tokyonight-moon]]
     end
 }
