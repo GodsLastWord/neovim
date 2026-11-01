@@ -10,7 +10,11 @@ return {
         lazy = false,
         opts = {
             window = {
-                position = "current"
+                position = "current",
+                mappings = {
+                    ["z"] = "expand_all_subnodes",
+                    ["Z"] = "close_all_subnodes"
+                }
             },
             filesystem = {
                 use_libuv_file_watcher = true,
