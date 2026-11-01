@@ -7,7 +7,6 @@ vim.keymap.set("n", "<leader>fc", vim.lsp.buf.format, { desc = "Format Code" })
 
 vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, { desc = "Go to the Definition" })
 vim.keymap.set("n", "<leader>gD", vim.lsp.buf.declaration, { desc = "Go to the Declaration" })
-vim.keymap.set("i", "<C-K>", vim.lsp.buf.signature_help, { desc = "View a symbol's signature" })
 
 vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, { desc = "Rename the symbol" })
 
