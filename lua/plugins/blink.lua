@@ -9,7 +9,7 @@ return {
         ---@module 'blink.cmp'
         ---@type blink.cmp.Config
         opts = {
-            keymap = { preset = 'default' },
+            keymap = { preset = 'super-tab' },
 
             completion = { documentation = { auto_show = false } },
 

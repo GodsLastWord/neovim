@@ -16,6 +16,9 @@ return {
     {
         "nvim-lualine/lualine.nvim",
         opts = {
+            options = {
+                globalstatus = true,
+            },
             sections = {
                 lualine_z = {
                     function()
